@@ -9,12 +9,15 @@ This project uses Tableau to analyze operations of a fictional superstore at ris
 
 ### 🔹 Part 1: Profits & Losses  
 - Identified top 2 profit centers and 2 major loss-makers by subcategory and region
+  
   ![Profit by Region](visuals/p1-1.png)
   
 - Highlighted **products with the greatest losses** and recommended which items the store should stop selling
+
   ![Profit by Product](visuals/p1-2.png)
   
 - Selected **3 subcategories to focus on** and **3 to discontinue** based on profitability trends
+
   ![TopBottom 3](visuals/p1-3.png)
 
 ### 🔹 Part 2: Advertising Strategy  
