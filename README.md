@@ -22,13 +22,20 @@ This project uses Tableau to analyze operations of a fictional superstore at ris
 
 ### 🔹 Part 2: Advertising Strategy  
 - Evaluated **average profit per unit sold by state and month**  
-- Identified **3 optimal state/month combinations** for ad spend based on ROI logic  
+- Identified **3 optimal state/month combinations** for ad spend based on ROI logic
+
+  ![Top State-Month](visuals/p2-1.png)
+  
 - Calculated how much the superstore could spend on advertising using a **1/5 total profit return-to-ad ratio**  
-📊 Advertising ROI Breakdown
-State	Month	Avg Profit ($)	Total Profit ($)	Ad Budget ($)
-Indiana	October	643.10	9,004	1,801
-Missouri	October	486.10	972	194
-Vermont	November	596.00	1,192	238
+
+#### 📊 Advertising ROI Breakdown
+
+| **State**   | **Month** | **Avg Profit ($)** | **Total Profit ($)** | **Ad Budget ($)** |
+|-------------|-----------|--------------------|-----------------------|-------------------|
+| Indiana     | October   | 643.10             | 9,004                 | 1,801             |
+| Missouri    | October   | 486.10             | 972                   | 194               |
+| Vermont     | November  | 596.00             | 1,192                 | 238               |
+
 
 ### 🔹 Part 3: Returned Items  
 - Joined `Returns` table to `Orders` using a LEFT JOIN to capture all returned and non-returned items  
